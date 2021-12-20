@@ -7,6 +7,7 @@ var currentYear = new Date().getFullYear();
 var myFullName = 'Thomas JAULGEY';
 var myName = 'JAULGEY';
 var myFirstName = 'Thomas';
+var myClasse = 'TSE FISA DE3';
 
 $(window).on("load", function (e) {
   $('body').show();
@@ -15,6 +16,7 @@ $(window).on("load", function (e) {
   $('first-name').html(myFirstName);
   $('last-name').html(myName);
   $('current-year').html(currentYear);
+  $('classe').html(myClasse);
 
   var nbImagesTotal = $('.section-list-albums .item-album').length;
   $('.nbPics span').append(nbImagesTotal);
@@ -35,9 +37,9 @@ $(window).on("load", function (e) {
     $('.item-parameter.ville').show();
     $('.item-parameter.nature').show();
     $('.item-parameter.all').show();
-});
+  });
 
-$('.item-parameter.toggle-minus').click(function() {
+  $('.item-parameter.toggle-minus').click(function() {
     $('.item-parameter.toggle-minus').hide();
     $('.item-parameter.toggle-plus').show();
     $('.item-parameter.city').hide();
@@ -49,31 +51,31 @@ $('.item-parameter.toggle-minus').click(function() {
     $('.item-album.cyclisme').slideDown('swing');
     $('.item-album.ville').slideDown('swing');        
     $('.item-album:nth-of-type(n+9)').slideUp('swing');
-});
+  });
 
-$('.item-parameter.all').click(function(){
+  $('.item-parameter.all').click(function(){
     $('.item-album.nature').slideDown('swing');
     $('.item-album.cyclisme').slideDown('swing');
     $('.item-album.ville').slideDown('swing');
-});
+  });
 
-$('.item-parameter.city').click(function(){
+  $('.item-parameter.city').click(function(){
     $('.item-album.nature').slideUp('swing');
     $('.item-album.cyclisme').slideUp('swing');
     $('.item-album.ville').slideDown('swing');
-});
+  });
 
-$('.item-parameter.cyclisme').click(function(){
+  $('.item-parameter.cyclisme').click(function(){
     $('.item-album.nature').slideUp('swing');
     $('.item-album.cyclisme').slideDown('swing');
     $('.item-album.ville').slideUp('swing');
-});
+  });
 
-$('.item-parameter.nature').click(function(){
+  $('.item-parameter.nature').click(function(){
     $('.item-album.nature').slideDown('swing');
     $('.item-album.cyclisme').slideUp('swing');
     $('.item-album.ville').slideUp('swing');
-});
+  });
 
   //parallax scroll des 3 images de bas de page
   $(window).on("load scroll", function() {
@@ -135,26 +137,15 @@ $('.item-parameter.nature').click(function(){
             $('header').css('height','60px');
             $('header').css('line-height','60px');
             $('.logo-stack').css('line-height','60px');
-            $('.logo-first-part').css('margin-top','18px');
             $('header .icons-pane').css('line-height','60px');
             $('header .menu-title').css('height','60px');
             $(".title-sub-title-first-panel").slideUp('swing');
         }
-        // else{
-        //     $('header').css('height','100px');
-        //     $('header').css('line-height','100px');
-        //     $('.logo-stack').css('line-height','100px');
-        //     $('.logo-first-part').css('margin-top','37px');
-        //     $('header .icons-pane').css('line-height','100px');
-        //     $('header .menu-title').css('height','100px');
-        //     $(".title-sub-title-first-panel").slideDown('swing');
-        // }
     } else {
       if (tailleEcran > 980){
         $('header').css('height','100px');
         $('header').css('line-height','100px');
         $('.logo-stack').css('line-height','100px');
-        $('.logo-first-part').css('margin-top','37px');
         $('header .icons-pane').css('line-height','100px');
         $('header .menu-title').css('height','100px');
         $(".title-sub-title-first-panel").slideDown('swing');

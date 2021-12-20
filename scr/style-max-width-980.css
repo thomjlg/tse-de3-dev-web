@@ -4,27 +4,16 @@
     }
     
     .logo-stack{
-        line-height:60px !important;
+        line-height:60px;
     }
     
     .logo-stack span{
         line-height:1.2rem;
-    }
-    
-    .logo-first-part{
-        font-family:'Lubalin';
-        font-size:0.8rem;
-        margin-left:1.35rem;
-        margin-top:18px;
-        display:block;
-        color:#618138;
-    }
-    .logo-last-part{
-        display:block;
+        display:inline-block;
         font-family:'Savoye';
         font-size:2em;
-        margin-top:-8px;
     }
+  
     
     header{
         position:fixed;
@@ -64,7 +53,7 @@
         width:calc(50% - 110px);
     }
     
-    .logo-web-agency{
+    .logo-photographe{
         text-align:center;
         color:white;
         height:220px;
@@ -79,21 +68,17 @@
     }
     
     .logo-area-definition{
-        line-height:1em !important;
+        line-height:1rem !important;
         display:inline-block;
-    }
-    .text-logo-first-part{
-        display:block;
-        font-family:'Lubalin';
-        font-size:1.1rem;
-        margin-left:45px;
-    }
-    .text-logo-last-part{
-        display:block;
         font-family:'Savoye';
         font-size:3.3rem;
-        margin-top: 1px;
+        color:black;
     }
+
+    footer .logo-area-definition{
+        color:white;
+    }
+    
     
     footer{
         z-index:3;
