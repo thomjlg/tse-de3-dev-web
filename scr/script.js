@@ -140,6 +140,7 @@ $(window).on("load", function (e) {
             $('header .icons-pane').css('line-height','60px');
             $('header .menu-title').css('height','60px');
             $(".title-sub-title-first-panel").slideUp('swing');
+            $('.contact-modal').css('top', 'calc(50px + 1rem)');
         }
     } else {
       if (tailleEcran > 980){
@@ -149,6 +150,7 @@ $(window).on("load", function (e) {
         $('header .icons-pane').css('line-height','100px');
         $('header .menu-title').css('height','100px');
         $(".title-sub-title-first-panel").slideDown('swing');
+        $('.contact-modal').css('top', 'calc(90px + 1rem)');
       }
         
     }

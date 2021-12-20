@@ -693,5 +693,76 @@
     .item-parameter.toggle-minus{
         display:none;
     }
+
+
+    .contact-modal{
+        display: none;
+        position: absolute;
+        background-color: rgb(144, 171, 111, 0.9);
+        right:1rem;
+        top:calc(90px + 1rem);
+        padding:1rem !important;
+        box-shadow: 0px 3px 10px 2px rgba(0,0,0,.3);
+    }
+    
+    .contact-modal::after {
+        content: "";
+        position: absolute;
+        top: -30px;
+        right: 1.1rem;
+        margin-left: -15px;
+        border-width: 15px;
+        border-style: solid;
+        border-color: transparent transparent rgb(144, 171, 111, 0.9) transparent;
+    }
+
+    .login-form{
+        font-size:0.95rem;
+        color:white;
+        line-height:normal;
+    }
+
+    .login-form span{
+        padding-bottom:0.5rem;
+        display: inline-block;
+        font-size:1rem;
+    }
+
+    .container-form-login input{
+        border:0px;
+        padding:8px;
+        color:#000;
+        background-color: white;
+        margin: 0 auto !important;
+        margin-top:0.5rem !important;
+        width:20rem;
+    }
+    .container-form-login textarea {
+        width:calc(100% - 16px);
+        height:5rem;
+        border:0px !important;
+        padding:8px !important;
+        margin-top:0.5rem !important;
+    }
+    .container-form-login button{
+        border:0px !important;
+        padding:8px !important;
+        color:#B5C79F;
+        background-color: #495057;
+        font-size:0.75rem;
+        margin: 0 auto !important;
+        margin-top:0.6rem !important;
+        text-decoration: none !important;
+        display: inline-block !important;
+    }
+    button, input[type="submit"] {
+        background: none;
+        color: inherit;
+        border: none;
+        padding: 0;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;
+    }
     
 }

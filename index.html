@@ -55,7 +55,32 @@
             <div class=icons-pane>
                 <i class="fa-brands fa-instagram" onClick="parent.open('http://instagram.com/thom.photo_')"></i>
                 <i class="fa-brands fa-facebook" onClick="parent.open('http://facebook.com/thom.jlg')"></i>
-                <i class="fas fa-envelope contact" onClick="location.href='mailto:thomas.jaulgey@free.fr'"></i>
+                <i class="fas fa-envelope contact" onClick="$('.contact-modal').toggle();"></i>
+
+                <div class="contact-modal">
+                    <div class=login-form>
+                        <span>Formulaire de contact</span>
+                        <form action="#" method="post">
+                        <div class="container-form-login">
+                            <input type="text" placeholder="nom" name="nom" required>
+                            <input type="text" placeholder="prenom" name="prenom" required>
+                            
+
+                        </div>
+                        <div class="container-form-login">
+                            <input type="email" placeholder="email" name="email" required >
+                            <input type="tel" placeholder="telephone" name="tel" required >
+                        </div>
+                        <div class="container-form-login">
+                            <textarea placeholder="votre message ici" name="textarea" required></textarea>
+                        </div>
+                        <div class="container-form-login">
+                            <button type="submit">Envoyer le mail</button>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+
             </div>
         </div>
     </header>
