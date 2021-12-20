@@ -1,0 +1,179 @@
+@font-face {
+    font-family: "Lubalin";
+    src: url('../fonts/70b628a2521876b8a7d11f8bfad52cd7.ttf');
+}
+
+@font-face {
+    font-family: "Savoye";
+    src: url('../fonts/savoye-let-plain-1-0.ttf')format('ttf');
+    src: url('../fonts/savoye-let-plain-1-0.woff') format('woff');
+
+}
+
+.show-error-js-is-disabled{
+    width:100%;
+    background-color:white;
+    height:100%;
+    z-index: 200;
+    position:fixed;
+    overflow:hidden !important;
+    text-align: center;
+    line-height: 100vh;
+}
+
+.show-error-js-is-disabled span{
+    line-height:1.5em !important;
+    display:inline-block;
+    vertical-align:middle;
+}
+
+.show-error-js-is-disabled span green-label{
+    color:#6b8e3e;
+}
+
+.show-error-js-is-disabled span .logo-web-agency{
+    color:black;
+    display:block;
+    margin-top:2rem;
+}
+
+.show-error-js-is-disabled span .logo-area-definition{
+    line-height:1rem !important;
+    display:inline-block;
+}
+.show-error-js-is-disabled span .text-logo-first-part{
+    margin-top: 2.3rem;
+    color:#618138;
+    display:block;
+    font-family:'Lubalin';
+    font-size:1.1rem;
+    margin-left:45px;
+}
+.show-error-js-is-disabled span .text-logo-last-part{
+    display:block;
+    font-family:'Savoye';
+    font-size:3.3em;
+    margin-top: -2.3rem;
+}
+
+
+html, body {
+    margin-top: 0;
+    margin-left:0;
+    margin-right:0;
+    margin-bottom:0;
+    font-family: Calibri, sans-serif;
+    color: black;
+    padding-left:0px;
+    padding-right:0px;
+    padding-bottom:0px;
+    padding-top:0px;
+    overflow-x:hidden;
+    /* background-color: #f9f6fb; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+body {
+    font-size: 1em;
+    padding-bottom:0;
+    padding-top:0;
+    -khtml-user-select:none;
+    -webkit-user-select:none;
+    user-select:none;
+    cursor:default;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+.flexbox-container{
+    display:flex;
+    justify-content: space-between;
+}
+.flexbox-container.title-container{
+    background-color:#f9f6fb;
+}
+
+#ph1{
+    background-image: url("../images/DSC_6337.JPG");
+}
+#ph2{
+    background-image: url("../images/gouffreenfer.jpg");
+}
+#ph3{
+    background-image: url('../images/guizay.jpg');
+}
+#ph4{
+    background-image: url("../images/stemetropole.jpg");
+}
+#ph5{
+    background-image: url("../images/calanque.jpg");
+}
+#ph6{
+    background-image: url("../images/croixprovence.jpg");
+}
+#ph7{
+    background-image: url("../images/tlpE4.jpg");
+}
+#ph8{
+    background-image: url("../images/gouffreenferhiver.jpg");
+}
+#ph9{
+    background-image: url("../images/guizayhiver.jpg");
+}
+#ph10{
+    background-image: url("../images/IMG_1842.jpg");
+}
+#ph11{
+    background-image: url("../images/milan.jpg");
+}
+#ph12{
+    background-image: url("../images/monza.jpg");
+}
+#ph13{
+    background-image: url("../images/bergamo.jpg");
+}
+#ph14{
+    background-image: url("../images/torino.jpg");
+}
+#ph15{
+    background-image: url("../images/lagodicomo.jpg");
+}
+#ph16{
+    background-image: url("../images/rosalba.jpg");
+}
+#ph17{
+    background-image: url("../images/mondovi.jpg");
+}
+#ph18{
+    background-image: url("../images/mouette.jpg");
+}
+#ph19{
+    background-image: url("../images/murano.jpg");
+}
+#ph20{
+    background-image: url("../images/venise.jpg");
+}
+#ph21{
+    background-image: url("../images/venise-2.jpg");
+}
+#ph22{
+    background-image: url("../images/lagodigarda.jpg");
+}
+#ph23{
+    background-image: url("../images/lagoiseo.jpg");
+}
+#ph24{
+    background-image: url("../images/guizay-nov21.jpg");
+}
+
+
+
+
