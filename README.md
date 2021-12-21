@@ -78,8 +78,9 @@ Le site est divisé en plusieurs blocs distincts :
 
 - ```<footer>``` : il est composé de 2 blocs ```<div class=preFooter>``` et ```<div class=preFooter>```. Le premier bloc sert à afficher le logo et le second à afficher les crédits &copy; et le nom.
 
+<br />
 
-## Grille d'albums
+### Grille d'albums
 La grille d'albums a été réalisée en utilsant la fonctionnalité ```flexbox``` de ```css```. Le nombre d'élément par ligne s'adapte en fonction de la largeur de l'écran. 
 Chaque album affiché est codé de la même manière avec le code suivant :
 ```html
@@ -116,7 +117,7 @@ Pour mettre une photo unique par album, il faut ajouter ces lignes dans le fichi
 ```
 Dans les ```div``` ayant les ```class="album-title"``` et ```class="album-date"```, il faut écrire les noms et dates des albums.
 
-Enfin, il faut préciser l'url de l'album dans la balise ```<a href="https://mon-url-vers-lalbum"```.
+Enfin, il faut préciser l'url de l'album dans la balise ```<a href="https://mon-url-vers-lalbum" target=_blank>```.
 
 <br /><hr />
 &copy; 2021 - Thomas JAULGEY - TSE FISA DE3
