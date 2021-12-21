@@ -8,83 +8,29 @@
         line-height:100px;
     }
     
-    .logo-stack span{
-        line-height:1.2rem;
-        display:inline-block;
-        font-family:'Savoye';
-        font-size:2em;
-    }
-
-    
     header{
-        position:fixed;
         height:100px;
-        width:100%;
         line-height:100px;
-        vertical-align:middle;
-        z-index: 100;
-        color:#222222;
-        opacity:0.98;
-        box-shadow: 0px 3px 10px 2px rgba(0,0,0,.2);
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     .postFooter{
-        width:calc(100% - 4em);
-        background-color:#343a40;
         height:60px;
-        color:white;
         line-height:60px;
         padding-left:2em;
         padding-right:2em;
-        box-shadow: 0 20px 20px -10px rgba(49,52,57,.3),0 20px 30px rgba(0,0,0,.08);
     }
     
-    
     header .menu-title{
-        text-align: left;
-        font-size:1.2rem;
-        vertical-align:middle;
         height: 100px;
-        text-indent: 4rem;
     }
     
     header .icons-pane{
-        margin-right:2rem;
-        font-size:1.2rem;
-        vertical-align:middle;
         line-height: 100px;
     }
     
-    
-    
-    
-    
-    
-    
-    
     .title-item-content{
-        width:fit-content;
-        padding-bottom:3rem;
         left:12rem;
-        position: relative;
-        text-align: right;
-        font-size:4rem;
-        color:white;
-        line-height:4rem;
-        font-family: "Savoye";
     }
-    
-    
     
     .member{
         background-color:white;
@@ -150,73 +96,34 @@
         height: 5px;
         background: transparent;
         z-index: 100;
-      }
-      .progress{
+    }
+    .progress{
         height: 5px;
         background: rgb(97, 129, 56);
         width: 0;
         transition: width 0.1s;
-      }
-      
-    
-    
-    
-    
+    }
     
     .row-group-portfolio{
         display: flex;
         justify-content: space-between;
     }
     .group-parameters-portfolio{
-        width:fit-content;
         padding-bottom:3rem;
         right:12rem;
-        position: relative;
-        text-align: right;
-        font-size:4rem;
-        line-height:4rem;
-        color:white;
-        vertical-align:middle;
-        font-size:1rem;
-        display:flex;
     }
     
     .title-item-content{
-        width:fit-content;
         padding-bottom:3rem;
         left:12rem;
-        position: relative;
         text-align: right;
-        font-size:4rem;
-        color:white;
-        line-height:4rem;
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
     .contact-modal{
-        display: none;
         position: absolute;
         background-color: rgb(144, 171, 111, 0.9);
         right:1rem;
         top:calc(90px + 1rem);
-        padding:1rem !important;
-        box-shadow: 0px 3px 10px 2px rgba(0,0,0,.3);
     }
     
     .contact-modal::after {
