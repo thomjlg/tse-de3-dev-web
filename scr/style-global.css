@@ -100,6 +100,237 @@ a{
     background-color:#f9f6fb;
 }
 
+
+.item-parameter:hover .popup-info{
+    display:block;
+}
+
+.group-parameters-portfolio .item-parameter{
+    margin-left:6px;
+    margin-right:6px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.group-parameters-portfolio .item-parameter-empty{
+    width:35px;
+}
+
+.item-parameter.all, .item-parameter.cyclisme, .item-parameter.nature, .item-parameter.city{
+    display:none;
+}
+
+.item-parameter .fa.fa-circle.fa-stack-2x{
+    color:#618138;
+}
+
+.item-parameter:hover .fa.fa-circle.fa-stack-2x{
+    color:#75964b;
+}
+
+.popup-info.all{
+    width:fit-content;
+    position: absolute;
+    max-width: 100px;
+    padding:0;
+    margin: 0;
+    top:-2rem;
+    left:-6.5rem;
+    height:auto;
+    line-height: normal;
+    display:none;
+}
+
+.popup-info span{
+    color:white;
+    vertical-align:middle;
+    font-size:0.85rem;
+    line-height: normal;
+    text-align: center;
+}
+
+.popup-info img{
+    width:20%;
+    right:-2rem;
+    position:absolute;
+}
+
+.popup-info.nature{
+    width:fit-content;
+    position: absolute;
+    max-width: 100px;
+    padding:0;
+    margin: 0;
+    top:-2rem;
+    left:1.4rem;
+    height:auto;
+    line-height: normal;
+    display:none;
+}
+
+.popup-info.bike{
+    width:fit-content;
+    position: absolute;
+    max-width: 100px;
+    padding:0;
+    margin: 0;
+    top:-2rem;
+    left:-2.6rem;
+    height:auto;
+    line-height: normal;
+    display:none;
+}
+
+.popup-info.city{
+    width:fit-content;
+    position: absolute;
+    max-width: 100px;
+    padding:0;
+    margin: 0;
+    top:-2rem;
+    left:5rem;
+    height:auto;
+    line-height: normal;
+    display:none;
+}
+
+.popup-info.plus{
+    width:fit-content;
+    position: absolute;
+    max-width: 100px;
+    padding:0;
+    margin: 0;
+    top:-2rem;
+    left:-4.35rem;
+    height:auto;
+    line-height: normal;
+}
+
+.popup-info.minus{
+    width:fit-content;
+    position: absolute;
+    max-width: 100px;
+    padding:0;
+    margin: 0;
+    top:-2rem;
+    left:11rem;
+    height:auto;
+    line-height: normal;
+    display:none;
+}
+
+
+.section-list-albums{
+    display: flex;
+    top:8vh;
+    width: 100%;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.nbPics{
+    font-size:1.1rem;
+    font-family: Calibri, sans-serif;
+    line-height: 1.1rem;
+    margin-top:-1rem;
+    margin-right:2px;
+}
+
+.item-album{
+    width:320px;
+    font-size: 1rem;
+    margin-left:1.2rem;
+    margin-right:1.2rem;
+    margin-top:2.2rem;
+    margin-bottom:2.2rem;
+    color:#000;
+    line-height: 1.6rem;
+    background-color: rgb(255,255,255,0.8);
+}
+
+
+.album-item-photo{
+    width:100%;
+    height:200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.item-album div[class^='album-']{
+    transition:0.5s all;
+}
+.item-album:hover div[class^='album-']{
+    background-color: #75964b;
+}
+.item-album div[class^='album-']{
+    background-color: #618138;
+}
+
+.album-title{
+    font-size: 1.1rem;
+    padding-top:5px;
+    padding-left:10px;
+    padding-right:10px;
+    position: relative;
+    padding-bottom:2px;
+    bottom:0;
+    color:white;
+}
+
+.album-date{
+    font-size: 0.75rem;
+    padding-left:10px;
+    padding-right:10px;
+    position: relative;
+    font-style: italic;
+    color:white;
+
+}
+
+.album-description{
+    text-align: right;
+    padding-left:10px;
+    padding-right:10px;
+    font-size:0.7rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    color:white;
+}
+
+.album-description i{
+    padding-left: 5px;
+}
+
+.item-album a{
+    text-decoration: none;
+    color:black;
+}
+
+.item-album a:hover{
+    font-weight: bold;
+}
+
+.item-album{
+    height:100% !important;
+}
+
+.item-album:nth-of-type(n+9){
+    display:none;
+}
+
+
+.item-parameter.toggle-minus{
+    display:none;
+}
+
+
+
+/* photos portfolio */
 #ph1{
     background-image: url("../images/DSC_6337.JPG");
 }
