@@ -578,8 +578,62 @@ section {
 }
 
 
+.login-form{
+    font-size:0.95rem;
+    color:white;
+    line-height:normal;
+}
 
+.login-form span{
+    padding-bottom:0.5rem;
+    font-size:1rem;
+}
+
+.container-form-login input{
+    border:0px;
+    padding:8px;
+    color:#000;
+    background-color: white;
+    margin: 0 auto !important;
+    margin-top:1.2rem !important;
+}
+
+.container-form-login textarea {
+    width:calc(100% - 16px);
+    height:5rem;
+    border:0px !important;
+    padding:8px !important;
+    margin-top:1.2rem !important;
+}
+
+.container-form-login button{
+    border:0px !important;
+    padding:8px !important;
+    color:#B5C79F;
+    background-color: #495057;
+    font-size:0.75rem;
+    margin: 0 auto !important;
+    margin-top:1.2rem !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+}
+
+button, input[type="submit"] {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+
+
+/* **************** */
 /* photos portfolio */
+/* **************** */
+
 #ph1{
     background-image: url("../images/DSC_6337.JPG");
 }
