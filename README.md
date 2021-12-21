@@ -53,7 +53,7 @@
     └── style-min-width-981-max-width-1249.css
 ```
 
-Le dossier ```scr``` contient les fichiers javascript et css. Il y a 4 fichiers css: 
+Le dossier ```scr``` contient les fichiers css et javascript : 
 - ```style-max-width-980.css```, ```style-min-width-1250.css``` et ```style-min-width-981-max-width-1249.css``` appliquent des styles selon les tailles d'écran (téléphones, tablettes, ordinateurs), de manière à avoir un site responsive.
 -  ```style_global.css``` contient des styles communs aux différentes tailles d'écran.
 - ```script.js``` contient l'ensemble des fonctions javascript et notamment jQuery qui permettent le bon fonctionnement du site.
@@ -63,5 +63,21 @@ Le dossier ```images``` contient toutes les images utilisées sur le site.
 Le dossier ```fonts``` contient les polices de caractères utilisées dans le site internet. Seule la police par défaut : ```font-family: Calibri, sans-serif;``` n'y est pas car elle est déjà connue par les navigateurs.
 
 Le fichier ```index.html``` est la page internet du site.
-<hr />
+
+<br />
+
+## Détail du fichier ```index.html```
+Le site est divisé en plusieurs blocs distincts : 
+- ```<noscript>``` : sert à afficher un message dans le cas ou l'utilisateur n'aurait pas activé ```javascript``` sur son navigateur
+
+- ```<header>``` : contient le titre du site, disposé sur la gauche du ```header```, ainsi que les icones sociales. La modal contenant le formulaire de contact est également déclarée dans le ```header``` et s'affiche au clic sur l'icone ```fas fa-envelope```.
+
+- ```<section>``` : ce sont les blocs principaux contenant les différentes rubriques du site
+    - ```<section class="section-panel panel-item-banner" id="link-portal"></section>``` sert à afficher l'image de fond du site
+    - ```<section class="section-panel panel-item-albums">``` permet d'afficher le portfolio avec la grille d'albums.
+
+- ```<footer>``` : il est composé de 2 blocs ```<div class=preFooter>``` et ```<div class=preFooter>```. Le premier bloc sert à afficher le logo et le second à afficher les crédits &copy; et le nom.
+
+
+<br /><hr />
 &copy; 2021 - Thomas JAULGEY - TSE FISA DE3
