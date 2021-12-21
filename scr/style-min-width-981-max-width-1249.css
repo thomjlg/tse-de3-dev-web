@@ -102,56 +102,7 @@
         padding-right:2em;
         box-shadow: 0 20px 20px -10px rgba(49,52,57,.3),0 20px 30px rgba(0,0,0,.08);
     }
-    
-    .icon-twitter, .icon-insta, .icon-mail, .icon-fb, .icon-linkedin, .icon-phone, .icon-info, .icon-web, .icon-up, .icon-down {
-        color: #f2f2f2;
-        -webkit-transition: all 0.3s ease-in-out;
-       -moz-transition: all 0.3s ease-in-out;
-       -o-transition: all 0.3s ease-in-out;
-       transition: all 0.3s ease-in-out;
-    }
-    
-    span i {
-        -webkit-transition: all 0.3s ease-in-out;
-        -moz-transition: all 0.3s ease-in-out;
-        -o-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out;
-        cursor:pointer;
-    }
-    
-    span:hover .icon-mail, span:hover .icon-down, span:hover .icon-up {
-        color: #495057;
-    }
-    
-    
-    span:hover i {
-        color: white;
-    }
-    span:hover .icon-twitter {
-        color: #1DA1F2;
-    }
-    span:hover .icon-insta {
-        color: #fd1d1d;
-    }
-    span:hover .icon-mail, span:hover .icon-down, span:hover .icon-up {
-        color: #495057;
-    }
-    span:hover .icon-fb {
-        color: #4267B2;
-    }
-    span:hover .icon-linkedin {
-        color: #0e76a8;
-    }
-    span:hover .icon-phone {
-        color: #B5C79F;
-    }
-    span:hover .icon-info {
-        color: #90AB6F;
-    }
-    span:hover .icon-web {
-        color: #3277BC;
-    }
-    
+
     .menu-title{
         width:fit-content;
     }
@@ -337,7 +288,7 @@
         box-shadow: 0 0 10px 5px #555;
     }
     
-    #thomas, #gregoire{
+    #thomas{
         background-repeat:no-repeat;
         background-size: contain;
         background-position:center;

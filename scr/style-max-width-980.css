@@ -311,6 +311,10 @@
         display:block;
     }
     
+    .item-parameter:hover .popup-info.all, .item-parameter:hover .popup-info.bike, .item-parameter:hover .popup-info.nature, .item-parameter:hover .popup-info.city{
+        display:none;
+    }
+
     .group-parameters-portfolio .item-parameter{
         margin-left:6px;
         margin-right:6px;
