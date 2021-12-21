@@ -1,8 +1,5 @@
 // Definition des valeurs dynamiques a parser dans le html
 var myAge;
-var diff_ms = Date.now() - new Date(2000, 06, 15).getTime();
-var age_dt = new Date(diff_ms); 
-myAge= Math.abs(age_dt.getUTCFullYear() - 1970);
 var currentYear = new Date().getFullYear();
 var myFullName = 'Thomas JAULGEY';
 var myName = 'JAULGEY';
@@ -11,7 +8,6 @@ var myClasse = 'TSE FISA DE3';
 
 $(window).on("load", function (e) {
   $('body').show();
-  $('age').html(myAge);
   $('full-name').html(myFullName);
   $('first-name').html(myFirstName);
   $('last-name').html(myName);
@@ -76,46 +72,7 @@ $(window).on("load", function (e) {
     $('.item-album.cyclisme').slideUp('swing');
     $('.item-album.ville').slideUp('swing');
   });
-
-  //parallax scroll des 3 images de bas de page
-  $(window).on("load scroll", function() {
-    var parallaxElement = $(".parallax"),
-      parallaxQuantity = parallaxElement.length;
-    window.requestAnimationFrame(function() {
-      for (var i = 0; i < parallaxQuantity; i++) {
-        var currentElement = parallaxElement.eq(i),
-          windowTop = $(window).scrollTop(),
-          elementTop = currentElement.offset().top,
-          elementHeight = currentElement.height(),
-          viewPortHeight = window.innerHeight * 0.5 - elementHeight * 0.5,
-          scrolled = windowTop - elementTop + viewPortHeight;
-        currentElement.css({
-          transform: "translate3d(0," + scrolled * -0.25 + "px, 0)"
-        });
-      }
-    });
-  });
   
-  //switch icon (up/down page) on scroll
-  $(document).scroll(function() {
-    var y = $(this).scrollTop();
-      if(y > 70){
-          $('#toTop').show();
-          $('#toBottom').hide();
-      }
-      else{
-          $('#toTop').hide();
-          $('#toBottom').show();
-      }
-  });
-
-  //toggle text on personal info
-  $(function() {
-    $('.showmoreButton').on('click', function() {
-        $('.showmore').slideToggle("fast");
-        $(this).text($(this).text() == '...voir moins...' ? '...voir plus...' : '...voir moins...');
-      });
-  });
 
   //update progressbar on bottom of the page
   function updateProgress(num1, num2){
