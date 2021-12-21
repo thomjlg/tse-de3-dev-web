@@ -79,5 +79,44 @@ Le site est divisé en plusieurs blocs distincts :
 - ```<footer>``` : il est composé de 2 blocs ```<div class=preFooter>``` et ```<div class=preFooter>```. Le premier bloc sert à afficher le logo et le second à afficher les crédits &copy; et le nom.
 
 
+## Grille d'albums
+La grille d'albums a été réalisée en utilsant la fonctionnalité ```flexbox``` de ```css```. Le nombre d'élément par ligne s'adapte en fonction de la largeur de l'écran. 
+Chaque album affiché est codé de la même manière avec le code suivant :
+```html
+<div class="item-album nature">
+    <div class="album-item-photo" id="id-de-la-photo"></div>
+    <div class="album-title">
+        <!-- Titre de l'album -->
+    </div>
+    <div class="album-date">
+        <!-- date de l'album -->
+    </div>
+    <a href="https://mon-url-vers-lalbum" target=_blank>
+        <div class="album-description">
+            Voir l'album 
+            <i class="fas fa-long-arrow-alt-right"></i>
+        </div>
+    </a>
+</div>
+```
+Dans la ```class``` de la première ```div``` il faut préciser le type de photo de l'album. Les catégories ```cyclisme```, ```nature```, ```ville``` ont été définies. Par exemple, il faut écrire une des ligne ci-dessous.
+```html
+<div class="item-album cyclisme">
+<div class="item-album nature">
+<div class="item-album ville">
+```
+Cela permet de pouvoir filtrer dans la page selon le type de photo que l'on veut visualiser.
+
+La ```div``` ayant la ```class=album-item-photo``` est celle qui permet l'affichage de la photo de couverture de l'album. 
+Pour mettre une photo unique par album, il faut ajouter ces lignes dans le fichier ```style-global.css```, tout en mettant un ```id``` unique par item : 
+```css
+#id-de-la-photo{
+    background-image: url("../images/ma-photo.jpg");
+}
+```
+Dans les ```div``` ayant les ```class="album-title"``` et ```class="album-date"```, il faut écrire les noms et dates des albums.
+
+Enfin, il faut préciser l'url de l'album dans la balise ```<a href="https://mon-url-vers-lalbum"```.
+
 <br /><hr />
 &copy; 2021 - Thomas JAULGEY - TSE FISA DE3
