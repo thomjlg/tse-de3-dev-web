@@ -3,7 +3,7 @@
 <br />
 
 ## Arborescence du projet
-```
+```bash
 ├── README.md
 ├── fonts
 │   ├── 70b628a2521876b8a7d11f8bfad52cd7.ttf
