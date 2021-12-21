@@ -87,7 +87,6 @@
     
     .preFooter{
         width:100%;
-    /*    background-color:#495057;*/
         background:linear-gradient(2.5deg, #495057 78%, rgba(0,0,0,0) 78.3% );
         height:400px;
         color:white;
@@ -225,7 +224,6 @@
         position:relative;
         padding:4rem 0 4rem 0;
         z-index: 5;
-        /* background-color: #B5C79F; */
         background-color: #e9ecef;
     }
     
@@ -363,7 +361,6 @@
     }
     
     .member .name{
-        /* font-family: 'Lubalin'; */
         font-size:1.3em;
         transition:all 0.5s;
         color:black;
@@ -396,7 +393,6 @@
     
     .panel-item-albums{
         background-color: #90AB6F;
-        /* background-image:url(images/IMG_8020.JPG); */
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -405,8 +401,6 @@
         width:100%;
         margin:0 auto;
         position:relative;
-        /* margin-bottom:18rem; */
-        /* margin-top:-58vh; */
     }
     
     .item-album-linear{
@@ -487,7 +481,6 @@
         max-width: 100px;
         padding:0;
         margin: 0;
-        /* background-color: #3E3E3E; */
         top:-2rem;
         left:-6.5rem;
         height:auto;
@@ -515,7 +508,6 @@
         max-width: 100px;
         padding:0;
         margin: 0;
-        /* background-color: #3E3E3E; */
         top:-2rem;
         left:1.4rem;
         height:auto;
@@ -529,7 +521,6 @@
         max-width: 100px;
         padding:0;
         margin: 0;
-        /* background-color: #3E3E3E; */
         top:-2rem;
         left:-2.6rem;
         height:auto;
@@ -543,7 +534,6 @@
         max-width: 100px;
         padding:0;
         margin: 0;
-        /* background-color: #3E3E3E; */
         top:-2rem;
         left:5rem;
         height:auto;
@@ -557,7 +547,6 @@
         max-width: 100px;
         padding:0;
         margin: 0;
-        /* background-color: #3E3E3E; */
         top:-2rem;
         left:-4.35rem;
         height:auto;
@@ -570,7 +559,6 @@
         max-width: 100px;
         padding:0;
         margin: 0;
-        /* background-color: #3E3E3E; */
         top:-2rem;
         left:11rem;
         height:auto;
@@ -600,7 +588,6 @@
     }
     
     .item-album{
-        /* width:calc(33% - 3rem); */
         width:320px;
         font-size: 1rem;
         margin-left:1.2rem;
@@ -639,7 +626,6 @@
         position: relative;
         padding-bottom:2px;
         bottom:0;
-        /* background-color: #618138; */
         color:white;
     }
     
@@ -649,7 +635,6 @@
         padding-right:10px;
         position: relative;
         font-style: italic;
-        /* background-color: #618138; */
         color:white;
     
     }
@@ -661,7 +646,6 @@
         font-size:0.7rem;
         text-transform: uppercase;
         cursor: pointer;
-        /* background-color: #618138; */
         color:white;
     }
     
@@ -679,7 +663,6 @@
     }
     
     .item-album{
-        /* background-color:#618138; */
         height:100% !important;
     }
     
