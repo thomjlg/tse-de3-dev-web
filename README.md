@@ -80,6 +80,20 @@ Le site est divisé en plusieurs blocs distincts :
 
 <br />
 
+### Choix du design
+J'ai fait le choix de réaliser un site contenant un seul bloc vertical prenant toute la largeur de la page. Je n'avais pas l'utilité d'un second bandeau vertical. Cela permet d'afficher plus de contenu et d'améliorer l'expérience utilisateur sur le site.
+
+Au niveau des couleurs, j'ai fait le choix d'une palette plutôt simple, ne contenant que du blanc et des dégrdés de vert et de gris. Cela permet d'avoir une cohérence sur l'ensemble du site et l'œil n'est pas agréssé par une quantité de couleurs. J'ai également joué sur la transparence au niveau du ```header``` et de la ```modal```. 
+
+La plupart des sites ont une couleur de définie pour le ```html, body```. J'ai fait le choix de définir une image de fond fixe plutôt qu'une couleur. L'idée étant de faire un site pour un phootgraphe, autant afficher une image et faire défiler les div dessus pour rester dans le thème.
+
+Au niveau des démarcations entre les ```sections```, j'ai opté pour des séparations inclinées au lieu des séparations horizonrales que l'on a par défaut. Pour cela, j'ai créé des gradients avec une inclinaison de quelques pourcentages. Cela permet de casser un peu les blocs et de rendre le site plus agréable et moins agressif à regarder. 
+<br />Pour conserver l'image de fond en diagonale au niveau des séparations, j'ai mis un attribut ```transparent``` au lieu d'une couleur, ce qui permet de laisser l'image de fond apparente et de donner l'impression que les div flottent au dessus de l'image. 
+
+J'ai pris le parti d'ajouter une police de caractère pour le logo et pour le titre de la rubrique du portfolio. La police ```savoye``` permet d'avoir un visuel plus fantaisiste tout en gardant en lisibilité. L'idée était de changer des polices génériques utilisées sur la plupart des sites.
+
+<br />
+
 ### Grille d'albums
 La grille d'albums a été réalisée en utilsant la fonctionnalité ```flexbox``` de ```css```. Le nombre d'élément par ligne s'adapte en fonction de la largeur de l'écran. 
 Chaque album affiché est codé de la même manière avec le code suivant :
