@@ -151,5 +151,21 @@
     .container-form-login button{
         margin-bottom:0!important;
     }
-
+    
+    .preFooter{
+        width:100%;
+        background:linear-gradient(2.5deg, #495057 78%, rgba(0,0,0,0) 78.3% );
+        height:400px;
+        color:white;
+    }
+    
+    .panel-item-banner{
+        color:white;
+        width:100%;
+        margin:0 auto;
+        position:relative;
+        background:transparent;
+        z-index:10;
+        height:60vh;
+    }
 }

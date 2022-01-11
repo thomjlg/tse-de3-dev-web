@@ -237,12 +237,7 @@ footer{
     background-color:transparent !important;
 }
 
-.preFooter{
-    width:100%;
-    background:linear-gradient(2.5deg, #495057 78%, rgba(0,0,0,0) 78.3% );
-    height:400px;
-    color:white;
-}
+
 
 .menu-title{
     width:fit-content;
@@ -293,17 +288,6 @@ section {
     background-attachment: fixed;
     z-index: 10;
 }
-
-.panel-item-banner{
-    color:white;
-    width:100%;
-    margin:0 auto;
-    position:relative;
-    background:transparent;
-    z-index:10;
-    height:60vh;
-}
-
 
 .title-sub-title-first-panel{
     width:fit-content;

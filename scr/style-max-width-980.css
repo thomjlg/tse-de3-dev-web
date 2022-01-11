@@ -4,6 +4,30 @@
         background-image:url(../images/banner-small.jpg);
     }
     
+    .panel-item-banner{
+        color:white;
+        width:100%;
+        margin:0 auto;
+        position:relative;
+        background:transparent;
+        z-index:10;
+    }
+
+    .panel-item-albums{
+        margin-top:2rem;
+    }
+
+    .item-album-linear{
+        display: none;
+    }
+    
+    .preFooter{
+        width:100%;
+        background-color: #495057;
+        height:400px;
+        color:white;
+    }
+    
     .logo-stack{
         line-height:60px;
     }
