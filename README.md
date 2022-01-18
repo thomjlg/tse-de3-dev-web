@@ -6,44 +6,46 @@
 ```bash
 ├── README.md
 ├── fonts
-│   ├── 70b628a2521876b8a7d11f8bfad52cd7.ttf
-│   ├── savoye-let-plain-1-0.ttf
-│   └── savoye-let-plain-1-0.woff
+│   ├── 70b628a2521876b8a7d11f8bfad52cd7.ttf
+│   ├── savoye-let-plain-1-0.ttf
+│   └── savoye-let-plain-1-0.woff
 ├── images
-│   ├── 55849375_2746497575377379_1960753506650423296_o.jpg
-│   ├── DSC_6337.JPG
-│   ├── IMG_0537.jpg
-│   ├── IMG_1842.jpg
-│   ├── IMG_2224.JPG
-│   ├── IMG_2224_2.png
-│   ├── IMG_8020.JPG
-│   ├── banner-small.jpg
-│   ├── banner.jpg
-│   ├── bergamo.jpg
-│   ├── calanque.jpg
-│   ├── chpfr.jpg
-│   ├── croixprovence.jpg
-│   ├── gouffreenfer.jpg
-│   ├── gouffreenferhiver.jpg
-│   ├── guizay-nov21.jpg
-│   ├── guizay.jpg
-│   ├── guizayhiver.jpg
-│   ├── lagodicomo.jpg
-│   ├── lagodigarda.jpg
-│   ├── lagoiseo.jpg
-│   ├── milan.jpg
-│   ├── mondovi.jpg
-│   ├── monza.jpg
-│   ├── mouette.jpg
-│   ├── murano.jpg
-│   ├── photoCV.png
-│   ├── popup-arrow.png
-│   ├── rosalba.jpg
-│   ├── stemetropole.jpg
-│   ├── tlpE4.jpg
-│   ├── torino.jpg
-│   ├── venise-2.jpg
-│   └── venise.jpg
+│   ├── 55849375_2746497575377379_1960753506650423296_o.jpg
+│   ├── DSC_6337.JPG
+│   ├── IMG_0537.jpg
+│   ├── IMG_1842.jpg
+│   ├── IMG_2224.JPG
+│   ├── IMG_2224_2.png
+│   ├── IMG_8020.JPG
+│   ├── banner-small.jpg
+│   ├── banner.jpg
+│   ├── bergamo.jpg
+│   ├── calanque.jpg
+│   ├── chpfr.jpg
+│   ├── croixprovence.jpg
+│   ├── gouffreenfer.jpg
+│   ├── gouffreenferhiver.jpg
+│   ├── guizay-nov21.jpg
+│   ├── guizay.jpg
+│   ├── guizayhiver.jpg
+│   ├── lagodicomo.jpg
+│   ├── lagodigarda.jpg
+│   ├── lagoiseo.jpg
+│   ├── milan.jpg
+│   ├── mondovi.jpg
+│   ├── monza.jpg
+│   ├── mouette.jpg
+│   ├── murano.jpg
+│   ├── photoCV.png
+│   ├── popup-arrow.png
+│   ├── poselongueaix.jpg
+│   ├── rosalba.jpg
+│   ├── stemetropole.jpg
+│   ├── tlpE4.jpg
+│   ├── torino.jpg
+│   ├── venise-2.jpg
+│   ├── venise.jpg
+│   └── vignesreims.jpg
 ├── index.html
 └── scr
     ├── script.js
@@ -69,9 +71,9 @@ Le fichier ```index.html``` est la page internet du site.
 ## Choix du design
 J'ai fait le choix de réaliser un site contenant un seul bloc vertical prenant toute la largeur de la page. Je n'avais pas l'utilité d'un second bandeau vertical. Cela permet d'afficher plus de contenu et d'améliorer l'expérience utilisateur sur le site.
 
-Au niveau des couleurs, j'ai fait le choix d'une palette plutôt simple, ne contenant que du blanc et des dégrdés de vert et de gris. Cela permet d'avoir une cohérence sur l'ensemble du site et l'œil n'est pas agréssé par une quantité de couleurs. J'ai également joué sur la transparence au niveau du ```header``` et de la ```modal```. 
+Au niveau des couleurs, j'ai fait le choix d'une palette plutôt simple, ne contenant que du blanc et des dégradés de vert et de gris. Cela permet d'avoir une cohérence sur l'ensemble du site et l'œil n'est pas agréssé par une quantité de couleurs. J'ai également joué sur la transparence au niveau du ```header``` et de la ```modal```. 
 
-La plupart des sites ont une couleur de définie pour le ```html, body```. J'ai fait le choix de définir une image de fond fixe plutôt qu'une couleur. L'idée étant de faire un site pour un phootgraphe, autant afficher une image et faire défiler les div dessus pour rester dans le thème.
+La plupart des sites ont une couleur de définie pour le ```html, body```. J'ai fait le choix de définir une image de fond fixe plutôt qu'une couleur. L'idée étant de faire un site pour un photographe, autant afficher une image et faire défiler les div dessus pour rester dans le thème.
 
 Au niveau des démarcations entre les ```sections```, j'ai opté pour des séparations inclinées au lieu des séparations horizonrales que l'on a par défaut. Pour cela, j'ai créé des gradients avec une inclinaison de quelques pourcentages. Cela permet de casser un peu les blocs et de rendre le site plus agréable et moins agressif à regarder. 
 <br />Pour conserver l'image de fond en diagonale au niveau des séparations, j'ai mis un attribut ```transparent``` au lieu d'une couleur, ce qui permet de laisser l'image de fond apparente et de donner l'impression que les div flottent au dessus de l'image. 
