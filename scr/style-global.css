@@ -324,7 +324,7 @@ section {
     position:relative;
 }
 
-.item-album-linear{
+.item-album-linear, .item-about-linear{
     width:100%;
     height:140px;
 }
@@ -700,3 +700,27 @@ button, input[type="submit"] {
 
 
 
+.panel-item-about{
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem 0 5rem 0;
+    z-index:10;
+    width:100%;
+    margin:0 auto;
+    position:relative;
+}
+
+.panel-item-about .title-item-content{
+    color:black;
+}
+
+.pre.item-about-linear{
+    background:linear-gradient(-178deg, rgb(0,0,0,0) 50%, white 50.3%);
+}
+
+.post.item-about-linear{
+    margin-bottom: 10vh;
+    background:linear-gradient(-178deg, white 50%, rgba(0,0,0,0) 50.3%);
+}
