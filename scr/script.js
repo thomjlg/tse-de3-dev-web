@@ -5,6 +5,13 @@ var myFullName = 'Thomas JAULGEY';
 var myName = 'JAULGEY';
 var myFirstName = 'Thomas';
 var myClasse = 'TSE FISA DE3';
+var nbYearXP = new Date().getFullYear() - 2021;
+
+if(nbYearXP == 1){
+  nbYearXP += ' an';
+}else{
+  nbYearXP += ' ans';
+}
 
 $(window).on("load", function (e) {
   $('body').show();
@@ -13,6 +20,7 @@ $(window).on("load", function (e) {
   $('last-name').html(myName);
   $('current-year').html(currentYear);
   $('classe').html(myClasse);
+  $('nb-year-xp').html(nbYearXP);
 
   var nbImagesTotal = $('.section-list-albums .item-album').length;
   $('.nbPics span').append(nbImagesTotal);
