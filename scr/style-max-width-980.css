@@ -4,6 +4,22 @@
         background-image:url(../images/banner-small.jpg);
     }
     
+    nav{
+        display: none;
+    }
+
+    .item-album-linear, .item-about-linear{
+        width:100%;
+        height:80px;
+    }
+
+    .pre.item-about-linear{
+        background-color:#f2f2f2;
+    }
+    
+    .post.item-about-linear{
+        background-color:#f2f2f2;    }
+    
     .panel-item-banner{
         color:white;
         width:100%;
@@ -14,7 +30,7 @@
     }
 
     .panel-item-albums{
-        margin-top:2rem;
+        margin-top:0rem;
     }
 
     .item-album-linear{
