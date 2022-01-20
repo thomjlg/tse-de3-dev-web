@@ -278,6 +278,7 @@ footer{
 .icons-pane > i:hover{
     animation-name: bounce;
     -moz-animation-name: bounce;
+    color:#506A2E;
 }
 
 i.contact{
@@ -733,12 +734,11 @@ button, input[type="submit"] {
 }
 
 nav{
-    background-color: #ccc;
+    background-color: #dae3cf;
     position: fixed;
     width: 100%;
     top:0;
-    /* color:white; */
-    font-size:0.95rem;
+    font-size:0.9rem;
     z-index: 101;
 }
 
@@ -752,7 +752,13 @@ nav ul{
 
 nav ul li{
     display: inline-block;
-    padding:10px 15px;
+    padding:8px 5px;
+    cursor:pointer;
+    color:#374820;
+}
+
+nav ul li:hover{
+    color:#506A2E;
 }
 
 nav ul li:last-child{
@@ -760,5 +766,5 @@ nav ul li:last-child{
 }
 
 header{
-    top: calc(20px + 0.95rem);
+    top: calc(16px + 0.95rem);
 }
