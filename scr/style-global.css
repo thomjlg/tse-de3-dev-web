@@ -731,3 +731,34 @@ button, input[type="submit"] {
     line-height:1.6rem;
     text-align: justify;
 }
+
+nav{
+    background-color: #ccc;
+    position: fixed;
+    width: 100%;
+    top:0;
+    /* color:white; */
+    font-size:0.95rem;
+    z-index: 101;
+}
+
+nav ul{
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    margin:0;
+    justify-content: flex-end;
+}
+
+nav ul li{
+    display: inline-block;
+    padding:10px 15px;
+}
+
+nav ul li:last-child{
+    margin-right: 20px;
+}
+
+header{
+    top: calc(20px + 0.95rem);
+}
