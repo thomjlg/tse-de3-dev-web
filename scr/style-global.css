@@ -701,7 +701,7 @@ button, input[type="submit"] {
 
 
 .panel-item-about{
-    background-color: white;
+    background-color: #f2f2f2;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -717,10 +717,17 @@ button, input[type="submit"] {
 }
 
 .pre.item-about-linear{
-    background:linear-gradient(-178deg, rgb(0,0,0,0) 50%, white 50.3%);
+    background:linear-gradient(-178deg, rgb(0,0,0,0) 50%, #f2F2F2 50.3%);
 }
 
 .post.item-about-linear{
     margin-bottom: 10vh;
-    background:linear-gradient(-178deg, white 50%, rgba(0,0,0,0) 50.3%);
+    background:linear-gradient(-178deg, #f2f2f2 50%, rgba(0,0,0,0) 50.3%);
+}
+
+.content-text-about{
+    width:90%;
+    margin:0 auto;
+    line-height:1.6rem;
+    text-align: justify;
 }
