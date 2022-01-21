@@ -139,6 +139,12 @@ $(window).on("load", function (e) {
     }
   });
 
+  //toggle modal contact
+  $('.icons-pane .fas.fa-envelope.contact').click(function (){
+    $('.contact-modal').toggle();
+    $('.icons-pane > i.fas.fa-envelope.contact').toggleClass('opened');
+  });
+
 });
 
 

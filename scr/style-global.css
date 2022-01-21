@@ -287,6 +287,7 @@ footer{
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     -webkit-animation-iteration-count: infinite;
+    transition:color 0.5s;
 }
 
 @keyframes bounce {
@@ -310,6 +311,10 @@ footer{
 .icons-pane > i:hover{
     animation-name: bounce;
     -moz-animation-name: bounce;
+    color:#506A2E;
+}
+
+.opened{
     color:#506A2E;
 }
 
@@ -615,7 +620,7 @@ section {
 
 .login-form{
     font-size:0.95rem;
-    color:white;
+    color:#222;
     line-height:normal;
 }
 
@@ -635,10 +640,11 @@ section {
 
 .container-form-login textarea {
     width:calc(100% - 16px);
-    height:5rem;
+    height:8rem;
     border:0px !important;
     padding:8px !important;
     margin-top:1.2rem !important;
+    resize: none;
 }
 
 .container-form-login button{
@@ -651,6 +657,12 @@ section {
     margin-top:1.2rem !important;
     text-decoration: none !important;
     display: inline-block !important;
+    transition:background-color 0.5s;
+}
+
+.container-form-login button:hover{
+    color:#B5C79F;
+    background-color: #373C41;
 }
 
 button, input[type="submit"] {
