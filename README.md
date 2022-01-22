@@ -1,5 +1,5 @@
 # Documentation technique 
-### projet final dev web TSE DE3
+## Projet final du module développment web | TSE DE3
 <br />
 
 ## Arborescence du projet
