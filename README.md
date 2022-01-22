@@ -1,4 +1,4 @@
-# tse-dev-web
+# Documentation technique 
 ### projet final dev web TSE DE3
 <br />
 
@@ -80,6 +80,7 @@ Au niveau des démarcations entre les ```sections```, j'ai opté pour des sépar
 
 J'ai pris le parti d'ajouter une police de caractère pour le logo et pour le titre de la rubrique du portfolio. La police ```savoye``` permet d'avoir un visuel plus fantaisiste tout en gardant en lisibilité. L'idée était de changer des polices génériques utilisées sur la plupart des sites.
 
+Le site ne contient qu'une seule page :  ```index.html```. Le menu de navigation permet de se rendre en un clic à la section choisie (a propos / portfolio) via un scroll dans la page.
 <br />
 
 ## Détail du fichier ```index.html```
