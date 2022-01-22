@@ -87,7 +87,9 @@ Le site ne contient qu'une seule page :  ```index.html```. Le menu de navigation
 Le site est divisé en plusieurs blocs distincts : 
 - ```<noscript>``` : sert à afficher un message dans le cas ou l'utilisateur n'aurait pas activé ```javascript``` sur son navigateur (le reste du site n'est pas visible dans ce cas)
 
-- ```<header>``` : contient le titre du site, disposé sur la gauche du ```header```, ainsi que les icones sociales. La modal contenant le formulaire de contact est également déclarée dans le ```header``` et s'affiche au clic sur l'icone ```fas fa-envelope```.
+- ```<nav>``` : permet d'afficher le menu vers les 2 sections du site (a propos / portfolio). Ce bloc est en  position fixe, au dessus du header.
+
+- ```<header>``` : contient le titre du site, disposé sur la gauche du ```header```, ainsi que les icones sociales. La modal contenant le formulaire de contact est également déclarée dans le ```header``` et s'affiche au clic sur l'icone ```fas fa-envelope```. Le ```header``` est en position fixe, juste en dessous du bloc ```nav```.
 
 - ```<section>``` : ce sont les blocs principaux contenant les différentes rubriques du site
     - ```<section class="section-panel panel-item-banner" id="link-portal"></section>``` sert à afficher l'image de fond du site
