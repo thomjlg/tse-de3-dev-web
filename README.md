@@ -4,6 +4,7 @@
 
 ## Arborescence du projet
 ```bash
+.
 ├── README.md
 ├── exam.md
 ├── fonts
