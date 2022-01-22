@@ -137,7 +137,7 @@ Pour mettre une photo unique par album, il faut ajouter ces lignes dans le fichi
 ```
 Dans les ```div``` ayant les ```class="album-title"``` et ```class="album-date"```, il faut écrire les noms et dates des albums.
 
-Enfin, il faut préciser l'url de l'album dans la balise ```<a href="https://mon-url-vers-lalbum" target=_blank>```.
+Enfin, il faut préciser l'url de l'album dans la balise ```<a href="https://mon-url-vers-album" target=_blank>```.
 
 <br /><hr />
 &copy; 2021 - Thomas JAULGEY - TSE FISA DE3
