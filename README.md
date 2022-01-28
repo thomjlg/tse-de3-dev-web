@@ -13,12 +13,9 @@
 │   └── savoye-let-plain-1-0.woff
 ├── images
 │   ├── 55849375_2746497575377379_1960753506650423296_o.jpg
-│   ├── DSC_6337.JPG
+│   ├── DSC_6337.jpg
 │   ├── IMG_0537.jpg
 │   ├── IMG_1842.jpg
-│   ├── IMG_2224.JPG
-│   ├── IMG_2224_2.png
-│   ├── IMG_8020.JPG
 │   ├── banner-small.jpg
 │   ├── banner.jpg
 │   ├── bergamo.jpg
@@ -33,8 +30,10 @@
 │   ├── lagodicomo.jpg
 │   ├── lagodigarda.jpg
 │   ├── lagoiseo.jpg
+│   ├── mDSC_0495.jpg
 │   ├── milan.jpg
 │   ├── mondovi.jpg
+│   ├── monza-street.jpg
 │   ├── monza.jpg
 │   ├── mouette.jpg
 │   ├── murano.jpg
@@ -75,7 +74,7 @@ J'ai fait le choix de réaliser un site contenant un seul bloc vertical prenant 
 
 Au niveau des couleurs, j'ai fait le choix d'une palette plutôt simple, ne contenant que du blanc et des dégradés de vert et de gris. Cela permet d'avoir une cohérence sur l'ensemble du site et l'œil n'est pas agréssé par une quantité de couleurs. J'ai également joué sur la transparence au niveau du ```header``` et de la ```modal```. 
 
-La plupart des sites ont une couleur de définie pour le ```html, body```. J'ai fait le choix de définir une image de fond fixe plutôt qu'une couleur. L'idée étant de faire un site pour un photographe, autant afficher une image et faire défiler les div dessus pour rester dans le thème.
+La plupart des sites ont une couleur de définie pour le ```html, body```. J'ai fait le choix de définir une image de fond fixe plutôt qu'une couleur. L'idée étant de faire un site pour un photographe, autant afficher une image et faire défiler les div dessus pour rester dans le thème. De plus, l'image de fond diffère selon la taille de l'écran. Cela permet de rendre le site plus attractif.
 
 Au niveau des démarcations entre les ```sections```, j'ai opté pour des séparations inclinées au lieu des séparations horizonrales que l'on a par défaut. Pour cela, j'ai créé des gradients avec une inclinaison de quelques pourcentages. Cela permet de casser un peu les blocs et de rendre le site plus agréable et moins agressif à regarder. 
 <br />Pour conserver l'image de fond en diagonale au niveau des séparations, j'ai mis un attribut ```transparent``` au lieu d'une couleur, ce qui permet de laisser l'image de fond apparente et de donner l'impression que les div flottent au dessus de l'image. 
@@ -140,6 +139,9 @@ Pour mettre une photo unique par album, il faut ajouter ces lignes dans le fichi
 Dans les ```div``` ayant les ```class="album-title"``` et ```class="album-date"```, il faut écrire les noms et dates des albums.
 
 Enfin, il faut préciser l'url de l'album dans la balise ```<a href="https://mon-url-vers-album" target=_blank>```.
+
+### Defilement Parallax images
+La dernière ```section``` du site avant le ```footer``` est une section contenant 3 images. Une animation en  ```javascript``` permet de faire défiler les images en même temps que l'utlisateur fait  défiler la page. Un effet d'ombre a été ajouté de manière à faire ressortir les images sur le fond qui est également une image.
 
 <br /><hr />
 &copy; 2021 - Thomas JAULGEY - TSE FISA DE3

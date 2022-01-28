@@ -122,4 +122,10 @@
         margin-bottom:2rem !important;
     }
 
+    .panel-item-images{
+        display: none;
+    }
+
+    
+
 }

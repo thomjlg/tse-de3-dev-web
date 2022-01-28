@@ -193,4 +193,14 @@
         z-index:10;
         height:60vh;
     }
+
+    .panel-item-images{
+        display:flex;
+        z-index:10;
+        width:100%;
+        position:relative;
+        padding:4rem 0 4rem 0;
+        z-index: 5;
+    }
+
 }
