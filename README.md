@@ -140,6 +140,8 @@ Dans les ```div``` ayant les ```class="album-title"``` et ```class="album-date"`
 
 Enfin, il faut préciser l'url de l'album dans la balise ```<a href="https://mon-url-vers-album" target=_blank>```.
 
+<br />
+
 ### Defilement parallax des images dans la dernière section
 La dernière ```section``` du site avant le ```footer``` est une section contenant 3 images. Une animation en  ```javascript``` permet de faire défiler les images en même temps que l'utlisateur fait  défiler la page. Un effet d'ombre a été ajouté de manière à faire ressortir les images sur le fond qui est également une image.
 
