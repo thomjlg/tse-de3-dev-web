@@ -267,6 +267,7 @@ footer{
     z-index:3;
     position: relative;
     background-color:transparent !important;
+    padding-bottom:6px;
 }
 
 
