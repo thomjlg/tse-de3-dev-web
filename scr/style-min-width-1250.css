@@ -198,6 +198,7 @@
         position:relative;
         padding:4rem 0 4rem 0;
         z-index: 5;
+        overflow: hidden;
     }
     
 }

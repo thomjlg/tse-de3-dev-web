@@ -124,6 +124,7 @@
 
     .panel-item-images{
         display: none;
+        overflow: hidden;
     }
 
     
