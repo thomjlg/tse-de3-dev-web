@@ -97,7 +97,7 @@ Le site est divisé en plusieurs blocs distincts :
     - ```<section class="section-panel panel-item-about">``` permet d'afficher la rubrique ```A Propos``` sur le site.
     - ```<section class="section-panel panel-item-albums">``` permet d'afficher le portfolio avec la grille d'albums.
 
-- ```<footer>``` : il est composé de 2 blocs ```<div class=preFooter>``` et ```<div class=preFooter>```. Le premier bloc sert à afficher le logo et le second à afficher les crédits &copy; et le nom.
+- ```<footer>``` : il est composé de 2 blocs ```<div class=preFooter>``` et ```<div class=postFooter>```. Le premier bloc sert à afficher le logo et le second à afficher les crédits &copy; et le nom.
 
 <br />
 
